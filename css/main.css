@@ -1,0 +1,65 @@
+@font-face {
+    font-family: hp;
+    src: url("../fonts/hp.ttf");
+}
+
+html{
+	background-image: url('https://wallpapercave.com/wp/TzghQg3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#score{
+	display: none;
+	border: 10px #74060b ridge;
+}
+#score h1{
+	font-family: hp;
+	font-size: 60px;
+}
+.quizWrapper{
+	text-align: center;
+	background-color: rgba(255, 255, 255, .6);
+	padding: 20px 50px 50px;
+	width: fit-content;
+	margin: 0 auto;
+}
+.office-title{
+	margin-top: 0;
+	font-family: sans-serif;
+	font-size: 150px;
+	margin-bottom: 20px;
+}
+.crestBanner img{
+ 	height: 150px;
+}
+.questionCss{
+/* 	font-family: hp;
+	font-size: 70px; */
+	font-family: 'Sanchez', serif;
+}
+
+.userGuess{
+	padding: 5px 8px;
+	font-size: 24px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+.checkBtn{
+	display: block;
+	padding: 8px 12px;
+	margin: 20px auto;
+	border: double 10px #74060b;
+	color: #74060b;
+	background-color: #f9b007;
+	font-size: 20px;
+	font-family: 'Sanchez', serif;
+	border-radius: 10px;
+	outline: none;
+}
